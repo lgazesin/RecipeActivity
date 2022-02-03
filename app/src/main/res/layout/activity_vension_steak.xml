@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VensionSteak">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vension(Deer) Steak"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS:\n
+1 ½ cups extra-virgin olive oil\n
+¾ cup soy sauce\n
+½ cup red wine vinegar\n
+½ cup freshly squeezed lemon juice\n
+¼ cup Worcestershire sauce\n
+2 garlic cloves, peeled and crushed\n
+1 ½ teaspoons roughly chopped fresh parsley\n
+2 tablespoons dry mustard\n
+2 ¼ teaspoons kosher salt, plus more as needed\n
+1 teaspoon black pepper, plus more as needed\n
+2 pounds venison loin or leg, cut into 6 steaks\n\n
+PREPARATION:\n
+Combine all ingredients except venison in a large bowl. Submerge venison in the marinade, cover with plastic wrap and refrigerate at least 8 hours and up to 12 hours.
+Heat broiler, stovetop grill pan or grill. Remove venison from marinade and season with salt and pepper. Working in batches if necessary, place steaks under the broiler or on the grilling surface and cook, flipping once, until medium-rare, 4 to 5 minutes per side. Allow venison to rest for 5 minutes before serving.
+"/>
+
+</LinearLayout>

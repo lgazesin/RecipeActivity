@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FrenchToast">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="French Toast Waffle"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:\n
+1 loaf of Challah bread\n
+1 cup milk\n
+8 large eggs\n
+1 tablespoon cinnamon\n
+3 tablespoons sugar\n
+butter and syrup for topping\n\n
+Instructions:\n
+Preheat waffle maker. (Spray the waffle maker with cooking spray if your style of waffle maker needs it.)
+Slice bread into thick slices about an inch thick.
+Whisk milk, eggs, cinnamon, and sugar together.
+Dunk each slice of bread into mixture and turn the bread to coat.
+Allow the bread to slowly soak up egg mixture.
+Place onto a preheated waffle maker.
+Cook until golden brown.
+Remove and repeat with each slice of bread.
+These waffles freeze really well. Place in a freezer bag or container and seal well.
+
+To reheat, place slices of French toast waffles in a toaster for a crispy texture, or reheat in a microwave for a softer texture. "/>
+
+</LinearLayout>

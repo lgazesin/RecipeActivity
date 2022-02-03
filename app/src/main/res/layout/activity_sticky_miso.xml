@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StickyMiso">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sticky miso peppers"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:\n
+1 x 220 g tin of pineapple rings in juice\n
+280 g extra firm tofu\n
+2 mixed-colour peppers\n
+olive oil\n
+4 spring onions\n
+4 cloves of garlic\n
+90 g rice vermicelli noodles\n
+20 g wasabi peas\n
+2 heaped teaspoons red miso paste\n\n
+Method:\n
+Place the pineapple rings (reserving the juice) in a large dry non-stick frying pan on a medium heat.\n\n
+Cut the tofu into four chunks and add to the pan. Let it all gently char for 4 minutes, then turn, char on the other side and remove, leaving the pan on the heat.\n\n
+Deseed the peppers, chop into 2cm chunks and place in the pan with ½ a tablespoon of olive oil, then reduce to a medium-low heat. Trim the spring onions, chop the white halves into 2cm lengths and add to the pan, reserving the green tops. Peel, finely slice and add the garlic, then cook it all for 10 minutes, or until soft and charred, stirring regularly.\n\n
+Meanwhile, finely slice the green halves of the spring onions. In a heatproof bowl, cover the noodles with boiling kettle water. In a pestle and mortar, pound the wasabi peas until fine.\n\n
+Mix the miso paste into the reserved pineapple juice, then pour into the pepper pan with a splash of water. Let it sizzle for a minute, then return the tofu and pineapple to the pan to glaze."/>
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChickenWaffles">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken and Waffles(Sweet Hot Fried)"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:\n
+Sweet Hot Maple Glaze:\n
+1 cup honey\n
+1 cup maple syrup\n
+1 teaspoon chili powder\n
+1 teaspoon paprika\n
+1 teaspoon ground black pepper\n
+1 teaspoon apple cider vinegar\n
+1/4 teaspoon cayenne\n
+1/2 teaspoon kosher salt\n
+Waffles:\n
+2 cups all-purpose flour\n
+1 cup shredded sharp Cheddar\n
+2 tablespoons sugar \n
+2 teaspoons baking powder\n
+3 to 4 scallions, chopped, whites and greens separated\n
+7 to 8 dashes hot sauce\n
+Fried Chicken:\n
+8 boneless, skin-on chicken thighs\n
+1 cup buttermilk \n
+2 cups all-purpose flour \n
+1 teaspoon garlic powder \n
+1 teaspoon onion powder\n\n
+Directions:\n
+For the glaze: Combine the honey, maple syrup, chili powder, paprika, black pepper, vinegar, cayenne and salt in a small saucepot. Bring just to a simmer. Remove from the heat and let steep for 20 minutes, then strain into a clean container.
+For the waffles: Preheat the oven to 250 degrees F and place a rack in the middle of the oven. Place a baking sheet fitted with a wire rack in the oven.
+Whisk together the flour, Cheddar, sugar, baking powder, hot sauce, scallion whites and salt in a large bowl and set aside.
+In another large bowl, whisk the eggs and a pinch of salt until just broken up, then add the milk and whisk."/>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GreekInspired">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Greek-inspired cauliflower stew"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:\n
+1 lemon\n
+olive oil\n
+1 bulb of garlic\n
+2 red onions\n
+10 black olives , (stone in)\n
+300 g new potatoes\n
+½ a bunch of fresh oregano , (15g)\n
+10 large ripe plum tomatoes\n
+1 head of cauliflower , ideally with leaves (800g)\n
+200 g fresh or frozen peas , or broad beans\n\n
+Method:\n
+Preheat the oven to 200ºC/400ºF/gas 6.
+Use a speed-peeler to strip the lemon zest into a large casserole pan on a medium heat, then add 2 tablespoons of oil and the garlic bulb.
+Peel and quarter the onions and separate into petals, destone the olives, and slice the potatoes 1cm-thick. Add to the pan, pick in the oregano leaves and cook for 5 minutes, or until just starting to soften and colour.
+Quarter and add the tomatoes, then season to taste with sea salt and black pepper.
+Pour 500ml of water into the pan and bring to the boil, stirring well and scraping up any sticky bits from the bottom.
+Discard just the tatty outer leaves from the cauliflower, then cut a cross into the stalk and push it right down to the bottom of the pan.
+Drizzle with 1 tablespoon of oil, cover, then place in the oven for 1 hour, or until golden and caramelised, basting occasionally and removing the lid halfway through.
+Remove the cauliflower to a serving platter and pick out the garlic bulb, then place the pan back over a medium heat on the hob, stir in the peas or broad beans, and simmer for 5 minutes.
+Carefully squeeze all the garlic out of the skins and stir back into the pan. Taste and tweak the seasoning, if needed, then pour over the cauliflower and finish with a good squeeze of lemon juice."/>
+
+</LinearLayout>

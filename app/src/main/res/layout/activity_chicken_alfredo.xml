@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChickenAlfredo">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Alfredo"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ingredients:\n
+1 pound boneless skinless chicken breast\n
+2 teaspoons kosher salt, divided, and as needed for seasoning\n
+½ teaspoon black pepper, as needed for seasoning\n
+paprika, as needed for seasoning\n
+3 quarts water\n
+8 ounces fettuccine\n
+1 tablespoon olive oil\n
+2 teaspoons minced garlic\n
+2 tablespoons unsalted butter\n
+1 ½ cup heavy cream\n
+1 cup parmesan cheese, freshly grated, finely shredded\n
+1 tablespoon chopped parsley\n\n
+Instructions:\n
+Chicken:\n
+Cut each chicken breast in half through the center to create two cutlets, four total.
+Lightly season both sides with salt, pepper, and paprika.
+Heat a large skillet over medium heat, once the pan is hot add the olive oil.
+Add the chicken and cook for 6 minutes. Flip over and cook until the internal temperature reaches 160 to 165ºF (71 to 74ºC), about 5 to 7 minutes, turn off the heat.
+Rest the chicken for 5 minutes and then slice into ½-inch thick pieces.
+Wash and dry the pan to use for making the alfredo sauce.\n
+Pasta:\n
+Bring 3 quarts of water and 1 ½ teaspoon salt to a boil in a large pot.
+Add the noodles and cook until al dente, about 10 to 12 minutes, or according to manufacturers directions.
+Place noodles in a colander and do not discard water.
+While the noodles are cooking, make the alfredo sauce.
+Heat a large skillet over medium-low heat."/>
+
+</LinearLayout>

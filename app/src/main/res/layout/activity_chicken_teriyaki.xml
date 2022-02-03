@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ChickenTeriyaki">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="@string/app_name"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chicken Teriyaki(pan fried)"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:textColor="#FA0303"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INGREDIENTS:\n
+340 gramsboneless skin-on chicken thighs\n
+1 teaspoonfresh ginger (grated)\n
+1/4 teaspoonsalt\n
+2 teaspoonsvegetable oil\n
+1 tablespoonhoney\n
+1 tablespoonmirin\n
+1 tablespoonsake\n
+1 tablespoonsoy sauce\n
+1 tablespoonsake\n\n
+STEPS:\n
+Rub the ginger and and salt into the chicken and let this sit for at least 30 minutes. After it's marinated, use paper towels to dry the chicken as best you can, removing any excess ginger pulp.
+Heat the oil in a heavy bottomed frying pan over medium heat. You don't want to start the chicken off over too high a heat otherwise it will not cook through before burning. Place the chicken skin-side down in the pan and fry until golden brown on one side.
+Flip the chicken, then add 1 tablespoon of sake and quickly cover the pan with a lid. Steam the chicken until it is just cooked through (about 5 minutes).
+Prepare the teriyaki sauce by mixing 1 tablespoon each of: honey, mirin, sake, and soy sauce. Stir to combine.
+Remove the lid, and drain any remaining liquid and oil. Use a paper towel to sop up any excess oil.
+Turn up the heat to high, then add the teriyaki sauce. Let this mixture boil, while flipping the chicken repeatedly to coat evenly
+The chicken teriyaki is done when most of the liquid has evaporated and the sauce forms a thick glaze around the chicken. Slice and pour the remaining teriyaki sauce over the chicken.
+"/>
+
+</LinearLayout>
